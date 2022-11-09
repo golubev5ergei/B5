@@ -19,7 +19,7 @@ class BoardException(Exception):
 
 class BoardOutException(BoardException):
     def __str__(self):
-        return "Вы пытаетесь выстрелить за доску!"
+        return "Вы пытаетесь выстрелить мимо доски!"
 
 
 class BoardUsedException(BoardException):
